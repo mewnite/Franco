@@ -1,0 +1,55 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #1B1B1E;
+}
+
+h1{
+    color: #FCFCFC;
+}
+
+button{
+    background-color: #E94560;
+    width: 50%;
+    padding: 0px;
+    border-radius: 15px;
+    user-select: none;
+    border: 2px solid #712230;
+    margin: 3px 4px;
+}
+
+button:hover{
+    background-color: #C7314D;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.botonesCont{
+    margin-top: 5px;
+    display:inline-flex;
+    border-bottom: 2px solid rgb(63, 62, 62);
+    border-top:  2px solid rgb(63, 62, 62);
+    width: 100%;
+    height: 50px;
+}
+
+p{
+    color: white;
+}
+
+.contenedorHistoria{
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
