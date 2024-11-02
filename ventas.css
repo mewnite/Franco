@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+
+.pIndu {
+    color: red;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.contenedorImagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.imagen-item {
+    text-align: center;
+    width: 210px;
+}
+
+.imagen-item img {
+    width: 210px;
+    height: 210px;
+}
+
+.imagen-item:hover{
+   animation: borde 0.01s ease-in forwards ;
+}
+
+@keyframes borde{
+    from{border: 0px}
+    to{border: 1.5px solid red;}
+}
+
+p{
+  
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
